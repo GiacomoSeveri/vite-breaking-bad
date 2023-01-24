@@ -1,5 +1,8 @@
 <script>
-
+import AppMain from './components/AppMain.vue';
+export default {
+  components: { AppMain }
+};
 </script>
 
 <template>
@@ -8,6 +11,7 @@
       <img src="./assets/img/612ce4761b9679000402af1c.png" alt="logo pokemon">
     </figure>
   </header>
+  <app-main></app-main>
 </template>
 
 <style lang="scss">
