@@ -8,7 +8,9 @@ export default {
 </script>
 
 <template>
-    <pokemon-list></pokemon-list>
+    <main class="container">
+        <pokemon-list></pokemon-list>
+    </main>
 </template>
 
 <style>
