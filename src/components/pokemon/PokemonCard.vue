@@ -36,5 +36,6 @@ img {
     padding: 5px;
     background-color: #fff;
     color: #000;
+    border-radius: 5px;
 }
 </style>
