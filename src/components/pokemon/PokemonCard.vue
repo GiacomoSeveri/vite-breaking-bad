@@ -12,14 +12,29 @@ export default {
 </script>
 
 <template>
-    <div class="text-center">
-        <img :src="image" alt="name">
-        <h4>{{ name }}</h4>
-        <p>{{ number }}</p>
-        <span>{{ type1 }} {{ type2 }}</span>
+    <div class="text-center custom-card">
+        <img :src="image" :alt="name">
+        <h4 type="button"><strong>{{ name }}</strong></h4>
+        <p><strong>{{ number }}</strong></p>
+        <span class="fs-4">{{ type1 }} {{ type2 }}</span>
     </div>
 </template>
 
 <style>
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    /* border-radius: 50%; */
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-bottom: #C52919 solid 1px;
+}
 
+.custom-card {
+    border: solid 1px #C52919;
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+}
 </style>

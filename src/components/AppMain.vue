@@ -9,7 +9,7 @@ export default {
 
 <template>
     <main class="container">
-        <pokemon-list></pokemon-list>
+        <pokemon-list class="mb-3"></pokemon-list>
     </main>
 </template>
 
